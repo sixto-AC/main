@@ -1,0 +1,21 @@
+streamlit
+# Bibliotecas esenciales para Streamlit y funcionalidades generales
+streamlit==1.30.0
+extra-streamlit-components==0.1.60
+streamlit-authenticator==0.2.3
+pandas==2.1.4
+numpy==1.26.3
+matplotlib==3.8.2
+altair==5.2.0
+pydeck==0.8.1b0
+python-dotenv==1.0.0
+requests==2.31.0
+PyJWT==2.8.0
+validators==0.22.0
+pillow==10.2.0
+
+# Bibliotecas de Azure
+azure-identity==1.12.0             # Para autenticación con Azure AD y Managed Identity
+azure-keyvault-secrets==4.6.0      # Para acceder a secretos en Azure Key Vault
+azure-monitor-query==1.2.0         # Para consultar registros en Azure Monitor
+azure-storage-blob==12.14.0        # Para manejar almacenamiento en Azure Blob (opcional)
